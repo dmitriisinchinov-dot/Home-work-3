@@ -74,9 +74,13 @@ public class Main {
         // Задача 7
         System.out.println("Задача 7");
         int one = 15;
-        int two = 20;
-        int three = 30;
-        if ()
+        int two = 30;
+        int three = 20;
+        boolean twoIsBiggerThanOne = three > one;
+        boolean twoIsBiggestNumber = two > three;
+        if (twoIsBiggerThanOne) {
+            System.out.println("Самое большое число " + two);
+        }
 
 
     }
