@@ -50,7 +50,7 @@ public class Main {
         }
         // Задача 6
         System.out.println("Задача 6");
-        int peoples = 120ы;
+        int peoples = 120;
         int allPlaces = 102;
         int seating = 60;
         if (peoples >= seating && peoples <= allPlaces) {
