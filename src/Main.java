@@ -63,8 +63,15 @@ public class Main {
         // Задача 7
         System.out.println("Задача 7");
         int one = 15;
-        int two = 30;
-        int three = 20;
+        int two = 20;
+        int three = 30;
+        if (one > two && one > three) {
+            System.out.println("Большее число " + one);
+        } else if (two > one && two > three) {
+            System.out.println("Большее число " + two);
+        } else {
+            System.out.println("Большее число " + three);
+        }
     }
 }
 
