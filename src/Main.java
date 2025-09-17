@@ -31,14 +31,11 @@ public class Main {
         int years = 10;
         if (years >= 2 && years <= 6) {
             System.out.println("Если возраст человека равен " + years + " ,то ему нужно ходить в детский сад");
-        }
-        if (years >= 7 && years <= 17) {
+        } else if (years >= 7 && years <= 17) {
             System.out.println("Если возраст человека равен " + years + " ,то ему нужно ходить в школу");
-        }
-        if (years >= 18 && years <= 24) {
+        } else if (years >= 18 && years <= 24) {
             System.out.println("Если возраст человека равен " + years + " ,то его место в университете");
-        }
-        if (years > 24) {
+        } else {
             System.out.println("Если возраст человека равен " + years + " ,то  ему пора ходить на работу");
         }
         // Задача 5
