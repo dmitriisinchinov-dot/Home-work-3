@@ -4,21 +4,19 @@ public class Main {
     public static void main(String[] args) {
         // Задача 1
         System.out.println("Задача 1");
-        int age = 20;
+        int age = 15;
         if (age >= 18) {
             System.out.println("Если человеку исполнилось " + age + " ,он совершеннолетний");
-        }
-        if (age < 18) {
-            System.out.println("Если человеку " + age + " ,он не достиг совершеннолетия, нужно ещё немного подождать");
+        } else {
+            System.out.println("Он не достиг совершеннолетия, нужно ещё немного подождать");
         }
         // Задача 2
         System.out.println("Задача 2");
         int temperature = -4;
-        if (temperature < 5) {
-            System.out.println("На улице " + temperature + ", нужно надеть шапку");
-        }
         if (temperature >= 5) {
             System.out.println("На улице " + temperature + " ,можно идти без шапки");
+        } else {
+            System.out.println("На улице холодно, нужно надеть шапку");
         }
         // Задача 3
         System.out.println("Задача 3");
@@ -40,8 +38,8 @@ public class Main {
         if (years >= 18 && years <= 24) {
             System.out.println("Если возраст человека равен " + years + " ,то его место в университете");
         }
-        if (years >= 24) {
-            System.out.println("Если возраст равен " + years + " , то ему поря ходить на работу");
+        if (years > 24) {
+            System.out.println("Если возраст человека равен " + years + " ,то  ему пора ходить на работу");
         }
         // Задача 5
         System.out.println("Задача 5");
@@ -51,22 +49,22 @@ public class Main {
         }
         if (childAge >= 5 && childAge <= 14) {
             System.out.println("Если возраст ребенка равен " + childAge + " , то он может кататься на атракционе в сопровождении");
-        }
-        if (childAge >= 14) {
-            System.out.println("Если возраст ребенка равен " + childAge + " ,то он может кататься на атракционе без сопровождения");
+        } else {
+            System.out.println("Если возраст ребенка равен " + childAge + " , то н может кататься на атракционе без сопровождения");
         }
         // Задача 6
         System.out.println("Задача 6");
+        int peoples = 13;
         int allPlaces = 102;
         int seating = 60;
-        int peoples = 70;
+
         if (peoples >= allPlaces) {
             System.out.println("Вагон уже полностю забит");
         }
         if (peoples < allPlaces) {
             System.out.println("Места в вагоне есть");
         }
-        if (peoples >= 60) {
+        if (peoples >= seating) {
             System.out.println("В вагоне остались только стоячие места");
         } else {
             System.out.println("В вагоне есть сидячие места");
@@ -76,10 +74,8 @@ public class Main {
         int one = 15;
         int two = 30;
         int three = 20;
-        boolean twoIsBiggerThanOne = three > one;
-        boolean twoIsBiggestNumber = two > three;
-        if (twoIsBiggerThanOne) {
-            System.out.println("Самое большое число " + two);
+
+        if ()
         }
 
 
