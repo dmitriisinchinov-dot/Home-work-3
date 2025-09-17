@@ -50,19 +50,15 @@ public class Main {
         }
         // Задача 6
         System.out.println("Задача 6");
-        int peoples = 85;
+        int peoples = 120ы;
         int allPlaces = 102;
         int seating = 60;
-        if (peoples >= allPlaces) {
-            System.out.println("Вагон уже полностю забит");
-        }
-        if (peoples < allPlaces) {
-            System.out.println("Места в вагоне есть");
-        }
-        if (peoples >= seating) {
-            System.out.println("В вагоне остались только стоячие места");
-        } else {
+        if (peoples >= seating && peoples <= allPlaces) {
+            System.out.println("В вагоне сидячих мест нет");
+        } else if (peoples < seating) {
             System.out.println("В вагоне есть сидячие места");
+        } else {
+            System.out.println("В вагоне мест нет");
         }
         // Задача 7
         System.out.println("Задача 7");
