@@ -28,7 +28,7 @@ public class Main {
         }
         // Задача 4
         System.out.println("Задача 4");
-        int years = 25;
+        int years = 10;
         if (years >= 2 && years <= 6) {
             System.out.println("Если возраст человека равен " + years + " ,то ему нужно ходить в детский сад");
         }
@@ -37,7 +37,8 @@ public class Main {
         }
         if (years >= 18 && years <= 24) {
             System.out.println("Если возраст человека равен " + years + " ,то его место в университете");
-        } else {
+        }
+        if (years > 24) {
             System.out.println("Если возраст человека равен " + years + " ,то  ему пора ходить на работу");
         }
         // Задача 5
@@ -45,18 +46,16 @@ public class Main {
         int childAge = 4;
         if (childAge < 5) {
             System.out.println("Если возраст ребенка равен " + childAge + ", то он не может кататься на атракционе");
-        }
-        if (childAge >= 5 && childAge <= 14) {
+        } else if (childAge >= 5 && childAge < 14) {
             System.out.println("Если возраст ребенка равен " + childAge + " , то он может кататься на атракционе в сопровождении");
         } else {
             System.out.println("Если возраст ребенка равен " + childAge + " , то н может кататься на атракционе без сопровождения");
         }
         // Задача 6
         System.out.println("Задача 6");
-        int peoples = 13;
+        int peoples = 85;
         int allPlaces = 102;
         int seating = 60;
-
         if (peoples >= allPlaces) {
             System.out.println("Вагон уже полностю забит");
         }
@@ -74,4 +73,6 @@ public class Main {
         int two = 30;
         int three = 20;
     }
-    }
+}
+
+
