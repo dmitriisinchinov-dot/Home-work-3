@@ -8,7 +8,7 @@ public class Main {
         if (age >= 18) {
             System.out.println("Если человеку исполнилось " + age + " ,он совершеннолетний");
         } else {
-            System.out.println("Он не достиг совершеннолетия, нужно ещё немного подождать");
+            System.out.println("Если человеку исполнилось " + age + " ,он не достиг совершеннолетия, нужно ещё немного подождать");
         }
         // Задача 2
         System.out.println("Задача 2");
@@ -16,7 +16,7 @@ public class Main {
         if (temperature >= 5) {
             System.out.println("На улице " + temperature + " ,можно идти без шапки");
         } else {
-            System.out.println("На улице холодно, нужно надеть шапку");
+            System.out.println("на улице " + temperature + " , нужно надеть шапку");
         }
         // Задача 3
         System.out.println("Задача 3");
@@ -28,7 +28,7 @@ public class Main {
         }
         // Задача 4
         System.out.println("Задача 4");
-        int years = 10;
+        int years = 25;
         if (years >= 2 && years <= 6) {
             System.out.println("Если возраст человека равен " + years + " ,то ему нужно ходить в детский сад");
         }
@@ -37,13 +37,12 @@ public class Main {
         }
         if (years >= 18 && years <= 24) {
             System.out.println("Если возраст человека равен " + years + " ,то его место в университете");
-        }
-        if (years > 24) {
+        } else {
             System.out.println("Если возраст человека равен " + years + " ,то  ему пора ходить на работу");
         }
         // Задача 5
         System.out.println("Задача 5");
-        int childAge = 17;
+        int childAge = 4;
         if (childAge < 5) {
             System.out.println("Если возраст ребенка равен " + childAge + ", то он не может кататься на атракционе");
         }
@@ -74,10 +73,5 @@ public class Main {
         int one = 15;
         int two = 30;
         int three = 20;
-
-        if ()
-        }
-
-
     }
-}
+    }
